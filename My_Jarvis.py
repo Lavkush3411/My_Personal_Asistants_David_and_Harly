@@ -254,7 +254,6 @@ if __name__=="__main__" :
             elif 'what u can do' in output:
                 n="I can"
                 print(f"{n} send whatsapp message \n {n} play music \n {n} give weather  details \n {n} Wikipedia Google youtube anything\n {n} open Gmail,Facebook,Instagram,twiter \n {n} print tasks that i can do")
-
             elif "exit program" in output:
                 Harly("okay sir , Have a good day")
                 break
@@ -267,6 +266,8 @@ if __name__=="__main__" :
             elif "close program" in output:
                 Harly("okay sir , Have a good day")
                 break
+            else:
+                pywhatkit.search(output)
         except:
             pass
 
