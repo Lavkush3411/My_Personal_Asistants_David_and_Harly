@@ -1,0 +1,56 @@
+('C:\\Users\\lkyad\\Desktop\\jarvis\\build\\My_Jarvis\\PKG-00.pkg',
+ {'BINARY': 1,
+  'DATA': 1,
+  'EXECUTABLE': 1,
+  'EXTENSION': 1,
+  'PYMODULE': 1,
+  'PYSOURCE': 1,
+  'PYZ': 0},
+ [('PYZ-00.pyz',
+   'C:\\Users\\lkyad\\Desktop\\jarvis\\build\\My_Jarvis\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct', 'c:\\python 38\\lib\\struct.pyo', 'PYMODULE'),
+  ('pyimod01_os_path',
+   'c:\\python '
+   '38\\lib\\site-packages\\PyInstaller\\loader\\pyimod01_os_path.pyc',
+   'PYMODULE'),
+  ('pyimod02_archive',
+   'c:\\python '
+   '38\\lib\\site-packages\\PyInstaller\\loader\\pyimod02_archive.pyc',
+   'PYMODULE'),
+  ('pyimod03_importers',
+   'c:\\python '
+   '38\\lib\\site-packages\\PyInstaller\\loader\\pyimod03_importers.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'c:\\python '
+   '38\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth__tkinter',
+   'C:\\python '
+   '38\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\python '
+   '38\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'C:\\python '
+   '38\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_win32comgenpy',
+   'C:\\python '
+   '38\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_win32comgenpy.py',
+   'PYSOURCE'),
+  ('pyi_rth_certifi',
+   'C:\\python '
+   '38\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\rthooks\\pyi_rth_certifi.py',
+   'PYSOURCE'),
+  ('My_Jarvis', 'C:\\Users\\lkyad\\Desktop\\jarvis\\My_Jarvis.py', 'PYSOURCE'),
+  ('My_Jarvis.exe.manifest',
+   'C:\\Users\\lkyad\\Desktop\\jarvis\\build\\My_Jarvis\\My_Jarvis.exe.manifest',
+   'BINARY')],
+ True,
+ False,
+ False,
+ [])
