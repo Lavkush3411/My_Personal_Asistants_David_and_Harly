@@ -1,5 +1,4 @@
-# Modules which are needed to be installed
-# u can install them using pip install module name
+# Modules which are needed to be installed u can install them using pip install module name
 1.pyttsx3
 2.datetime
 3.speech_recognition
