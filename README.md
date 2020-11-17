@@ -1,3 +1,4 @@
+# download & unzip first
 # Modules which are needed to be installed u can install them using pip install module name
 1.pyttsx3
 2.datetime
@@ -6,6 +7,8 @@
 5.requests, json
 6.pywhatkit
 7.webbrowser
+Go To : My_Personal_Asistants_David_and_Harly-master (1)\My_Personal_Asistants_David_and_Harly-master
+run myjarvis.py
 
 
 
