@@ -234,19 +234,18 @@ if __name__=="__main__" :
                 msg=user_words_recognizing()
                 if choose_assitant.isalpha():
                     David("Enter time in 24 hour format")
+                    print("Example 4:23")
                 if choose_assitant.isnumeric():
                     Harly("Enter time in 24 hour format")
-                time=input("Time as (hour:minute)".split(":"))
+                    print("Example 4:23")
+                time=input().split(":")
                 try:
                     pywhatkit.sendwhatmsg("+91"+mo_no,msg,int(time[0]),int(time[1]))
                 except:
                     David("Something went wrong please try again")
                     pass
-            elif "None" in output:
-                if choose_assitant.isnumeric():
-                    Harly("I was not able to hear please try again")
-                if choose_assitant.isalpha():
-                    David("I was not able to hear please try again")
+            elif "none" or "None" in output:
+                pass
             elif 'tasks' in output:
                 n="I can"
                 print(f"{n} send whatsapp message \n {n} play music \n {n} give weather  details \n {n} Wikipedia Google youtube anything\n {n} open Gmail,Facebook,Instagram,twiter \n {n} print tasks that i can do")
